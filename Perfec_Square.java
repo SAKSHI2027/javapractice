@@ -7,7 +7,7 @@ public class Perfec_Square {
         if (n > 0)
           {
            int squareRoot = (int)Math.sqrt(n);
-           if (squareRoot * squareRoot == n){
+           if (squareRoot * squareRoot == n){         // root multiplication
             System.out.print("The number " +  n  + " is perfect square ");
            }else {
             System.out.print("the number " +  n  + " is not perfect Square");
